@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Decide</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="topBar">
+      <button onclick="dropDown(this)">▽</button>
+      <div id="pages">
+        <button onclick="window.location='instructions.html'">Instructions</button>
+        <button onclick="window.location='flip.html'">Flip A Coin</button>
+        <button onclick="window.location='dice.html'">Roll Dice</button>
+        <button onclick="window.location='list.html'">Random List</button>
+        <button onclick="window.location='8ball.html'">8-Ball</button>
+        <button onclick="window.location='stickpick.html'">Stick Pick</button>
+        <button onclick="window.location='russianroulette.html'">Russian Roulette</button>
+        <button onclick="window.location='cards.html'">Cards</button>
+      </div>
+
+      <div id="main">
+          <div id="instructions">
+            <h1>Instructions</h1>
+            <p>This is the instructional page that has information on all of the different web pages that make up this site.</p>
+          </div>
+          <div id="flip">
+            <h1>Flip A Coin</h1>
+            <p>A simple coin flipper. it flips a coin and is either heads or tails.</p>
+          </div>
+          <div id="dice">
+            <h1>Roll Dice</h1>
+            <p>Roll a specified amount of some dice. select the die type and input an amount to roll and it will tell you the cumulative total of all the dice after the roll. for die types they are represented by d* where * is the number of sides on the die, so a d4 will roll between 1-4.</p>
+          </div>
+          <div id="list">
+            <h1>Random List</h1>
+            <p>This selects 1 random item from the list of items you input.</p>
+          </div>
+          <div id="8ball">
+            <h1>8-Ball</h1>
+            <p>Ask the 8-ball a question and it will give you an answer.</p>
+          </div>
+          <div id="stickpick">
+            <h1>Stick Pick</h1>
+            <p>Put names on the "sticks" and the computer will organize them by stick size and output the order from largest to smallest</p>
+          </div>
+          <div id="russianroulette">
+            <h1>Russian Roulette</h1>
+            <p>A game of Russian Roulette. there is one bullet in the chamber of 6. To start load the gun to put the bullet in a random chamber. then either spin the chamber or fire the gun to see if you survive. you can play by either continuously firing the gun, and the game will last a maximum of 6 rounds, or you can spin the chamber each turn to make the game longer.</p>
+          </div>
+          <div id="cards">
+            <h1>Cards</h1>
+            <p>card functions for shuffling a deck and drawing a card.</p>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
